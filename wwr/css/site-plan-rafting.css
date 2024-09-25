@@ -13,7 +13,7 @@ Fonts are separated by a & */
   --accent3-color: #340BEB;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: 'Bebas Neue', sans-serif;
+  --heading-font: 'Bebas Neue';
   --paragraph-font: 'PT Serif', serif;
 
   /* these colors below should be chosen from among your palette colors above */
