@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&display=swapp');
+
+:root {
+    --primary-color: #0033FF   ;
+    --secondary-color: #EAFF00 ;
+    --accent1-color: #FF0000;
+    --accent2-color: #ADF1F2;
+    --accent3-color: #42033D;
+    --accent3-color: #340BEB;
+  
+    --heading-font: 'Bebas Neue', sans-serif;
+    --paragraph-font: 'Lora', serif;
+  
+    --headline-color-on-white: #0033FF;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #340BEB; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #340BEB  ;
+    --nav-link-color: #396E94;
+    --nav-background-color: #EAFF00;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #ADF1F2;
+}
+
+body {
+max-width: 75%;
+margin: 0 auto;
+padding: 4em;
+font-size: 18px;
+text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 55%;
+}
