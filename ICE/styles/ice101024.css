@@ -1,15 +1,21 @@
 body {
-    background-color: lightskyblue;
+    background-color: rgb(26, 118, 175);
     max-width: 400px;
     margin: 0 auto;
 }
 
-img {
-    display: block;
-    max-width: 35%;
-    margin: 0 auto;
-    padding: 10px 30px;
+#tiptop {
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    margin: 1em;
 }
+
+#tiptop:hover {
+    color:black ;
+    cursor:pointer ;
+}
+
 
 .nellyquote {
     color:white ;
@@ -23,31 +29,24 @@ img {
     text-align: center;
 }
 
-.nellyquote3 {
-    color:white ;
-    padding: 30px 10px;
-    font-size: 1.5em;
-    text-align: center;
-    font-family:'Times New Roman', Times, serif
-}
-
-#tiptop {
-    font-size: 64px;
-    color: white;
-    text-align: center;
-    padding-bottom: 8px;
-    margin: 1em ;
-}
-
-#tiptop:hover {
-    color:black ;
-    cursor:pointer ;
-}
-
 .list {
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
+
+img {
+    display: block;
+    max-width: 35%;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+.nellyquote3 {
+    color:white ;
+    font-size: 1.5em;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
 }
 
 footer {
