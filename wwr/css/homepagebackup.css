@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&display=swapp');
 
 :root {
     --primary-color: #0033FF   ;
@@ -23,74 +22,28 @@
     --nav-hover-background-color: #ADF1F2;
 }
 
-#logo{
-    width: 80px;
+* {
+    border: 2px solid blue;
 }
 
-body{
-    background-color: #ffffff;
+body {
+max-width: 75%;
+margin: 0 auto;
+padding: 4em;
+font-size: 18px;
+text-align: center;
 }
 
-header {
-    background-color: #0033FF;
-}
-
-#content {
-    max-width: 1600px;
+img {
+    display: block;
     margin: 0 auto;
+    padding: 10px 30px;
+    max-width: 55%;
 }
 
-nav{
-    text-align: center;
-    color:white;
-    background-color: darkgrey;
-}
-nav:hover{
-    background-color: #EAFF00;
-    color:#0033FF;
+.home-grid {
 }
 
-#hero-msg {
-    text-align: center;
-}
+.social {
 
-.button-box{
-    text-align: center;
-}
-
-.book{
-    background-color: darkgrey;
-}
-
-.book:hover{
-    background-color: #EAFF00;
-}
-
-main{
-    text-align: center;
-}
-
-#background {
-    height: 725px;
-    background-color: #88e9eb;
-}
-
-.msg{
-    background-color: #0033FF;
-}
-
-.join {
-    background-color: #0033FF;
-}
-
-.join:hover{
-    background-color: #EAFF00;
-}
-
-footer{
-    background-color: darkgrey;
-}
-
-#icon{
-    width: 80px;
 }
