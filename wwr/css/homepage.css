@@ -40,15 +40,21 @@ header {
     margin: 0 auto;
 }
 
-nav{
-    text-align: center;
-    color:white;
-    background-color: darkgrey;
+nav a {
+    text-decoration: none;
+    color: #EAFF00;
 }
-nav:hover{
-    background-color: #EAFF00;
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#hero {
     color:#0033FF;
+    text-align: center;
 }
+
 
 #hero-msg {
     text-align: center;
@@ -68,6 +74,7 @@ nav:hover{
 
 main{
     text-align: center;
+    color:#0033FF
 }
 
 #background {
@@ -89,8 +96,45 @@ main{
 
 footer{
     background-color: darkgrey;
+    color:blue ;
+    text-decoration: none;
 }
+
+footer .site-links a {
+    text-decoration: none;
+    color: #0033FF;
+}
+
+footer .site-links a:hover {
+    text-decoration: underline;
+    color: #EAFF00;
+}
+
+footer p {
+    font-size: 1.2em;
+}    
+                    
 
 #icon{
     width: 80px;
+}
+
+.site-links a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.site-links a:hover {
+    text-decoration: underline;
+    color: #EAFF00;
+}
+
+.site-links-hero a {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+.site-links-hero a:hover {
+    text-decoration: underline;
+    color: #EAFF00;
 }
