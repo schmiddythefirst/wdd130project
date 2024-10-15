@@ -1,12 +1,11 @@
-body{
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-#banner {
-    text-align: center;
+body {
+    margin: 0;
 }
 
 #circles {
     background-color: grey;
+}
+
+.circ{
+    border-radius: 50%;
 }
