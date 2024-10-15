@@ -2,3 +2,12 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+
+#banner {
+    text-align: center;
+
+}
+
+#circles {
+    background-color: grey;
+}
