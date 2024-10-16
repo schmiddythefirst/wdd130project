@@ -12,11 +12,15 @@ header img{
 
 #circles {
     background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px 0; 
 }
 
 .circ{
     border-radius: 50%;
     border: 10px solid;
     border-color: rgb(57, 57, 57);
-    width: 200px;
+    width: 360px;
 }
