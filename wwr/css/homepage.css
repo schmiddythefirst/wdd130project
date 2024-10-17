@@ -141,3 +141,7 @@ footer p {
     text-decoration: underline;
     color: #EAFF00;
 }
+
+.social a {
+    text-decoration:none;
+}
