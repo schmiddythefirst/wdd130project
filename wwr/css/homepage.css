@@ -55,6 +55,9 @@ nav a:hover {
     text-align: center;
 }
 
+#hero-img {
+    width:100%;
+}
 
 #hero-msg {
     text-align: center;
