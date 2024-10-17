@@ -75,9 +75,13 @@ nav a:hover {
     background-color: #EAFF00;
 }
 
-main{
+main section{
     text-align: center;
     color:#0033FF
+}
+
+#mountains {
+    width:100%;
 }
 
 #background {
