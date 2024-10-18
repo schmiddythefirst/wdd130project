@@ -98,7 +98,7 @@
 
     #hero-msg {
         text-align: center;
-        font-family: 'Bebas Neue', 'sans-serif';
+        font-family: 'Bebas Neue', 'Helvetica', 'sans-serif';
         font-size: 2em;
     }
 
@@ -162,7 +162,7 @@
     }
 
     .join {
-        font-family: 'Lora', 'serif';
+        font-family: 'Lora', 'Arial Narrow', 'serif';
         color:#FF0000;
         text-decoration: none;
         font-size: 18px;
@@ -210,7 +210,7 @@
     }
 
     .site-links a {
-        font-family: 'Lora', 'serif';
+        font-family: 'Lora', 'Arial Narrow', 'serif';
         text-decoration: none;
         color: #000000;
     }
@@ -221,7 +221,7 @@
     }
 
     .site-links-hero a {
-        font-family: 'Lora', 'serif';
+        font-family: 'Lora', 'Arial Narrow', 'serif';
         text-decoration: none;
         color: #FF0000;
     }
