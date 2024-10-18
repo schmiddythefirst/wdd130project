@@ -85,6 +85,10 @@
         font-family: 'Bebas Neue', 'sans-serif';
     }
 
+    .site-links-hero{
+        
+    }
+
     .button-box{
         text-align: center;
     }
@@ -153,6 +157,7 @@
     }
 
     .site-links a {
+        font-family: 'Lora', 'serif';
         text-decoration: none;
         color: #000000;
     }
@@ -163,6 +168,7 @@
     }
 
     .site-links-hero a {
+        font-family: 'Lora', 'serif';
         text-decoration: none;
         color: #FF0000;
     }
