@@ -29,25 +29,25 @@
     }
 
     .hdr-white {
-        font-family: 'Bebas Neue', 'sans-serif';
+        font-family: 'Bebas Neue', 'Helvetica', 'sans-serif' ;
         color:#0033FF;
         font-size: 2em;
 
     }
 
     .hdr-color {
-        font-family: 'Bebas Neue', 'sans-serif';
+        font-family: 'Bebas Neue', 'Helvetica', 'sans-serif';
         color:#ffffff;
         font-size: 2em;
     }
 
     .body-text-white {
-        font-family: 'Lora', 'serif';
+        font-family: 'Lora', 'Arial Narrow', 'serif';
         color: #340BEB;
     }
 
     .body-text-color {
-        font-family: 'Lora', 'serif';
+        font-family: 'Lora', 'Arial Narrow', 'serif';
         color:#ffffff;
     }
 
