@@ -1,151 +1,177 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&display=swap');
 
 
-:root {
-    --primary-color: #0033FF   ;
-    --secondary-color: #EAFF00 ;
-    --accent1-color: #FF0000;
-    --accent2-color: #ADF1F2;
-    --accent3-color: #42033D;
-    --accent3-color: #340BEB;
-  
-    --heading-font: 'Bebas Neue', sans-serif;
-    --paragraph-font: 'Lora', serif;
-  
-    --headline-color-on-white: #0033FF;  /* headlines on a white background */ 
-    --headline-color-on-color: white; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #340BEB; /* paragraph text on a white background */ 
-    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-    --paragraph-background-color: #340BEB  ;
-    --nav-link-color: #396E94;
-    --nav-background-color: #EAFF00;
-    --nav-hover-link-color: white;
-    --nav-hover-background-color: #ADF1F2;
-}
+    :root {
+        --primary-color: #0033FF   ;
+        --secondary-color: #EAFF00 ;
+        --accent1-color: #FF0000;
+        --accent2-color: #ADF1F2;
+        --accent3-color: #42033D;
+        --accent3-color: #340BEB;
+    
+        --heading-font: 'Bebas Neue', sans-serif;
+        --paragraph-font: 'Lora', serif;
+    
+        --headline-color-on-white: #0033FF;  /* headlines on a white background */ 
+        --headline-color-on-color: white; /* headlines on a colored background */ 
+        --paragraph-color-on-white: #340BEB; /* paragraph text on a white background */ 
+        --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+        --paragraph-background-color: #340BEB  ;
+        --nav-link-color: #396E94;
+        --nav-background-color: #EAFF00;
+        --nav-hover-link-color: white;
+        --nav-hover-background-color: #ADF1F2;
+    }
 
-#logo{
-    width: 80px;
-}
+    #logo{
+        width: 80px;
+    }
 
-body{
-    background-color: #ffffff;
-}
+    .hdr-white {
+        font-family: 'Bebas Neue', 'sans-serif';
+        color:#0033FF
+    }
 
-header {
-    background-color: #0033FF;
-}
+    .hdr-color {
+        font-family: 'Bebas Neue', 'sans-serif';
+        color:#ffffff
+    }
 
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
+    .body-text-white {
+        font-family: 'Lora', 'serif';
+        color: #340BEB;
+    }
 
-nav a {
-    text-decoration: none;
-    color: #EAFF00;
-}
+    .body-text-color {
+        font-family: 'Lora', 'serif';
+        color:#ffffff;
+    }
 
-nav a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
 
-#hero {
-    color:#0033FF;
-    text-align: center;
-}
+    body{
+        background-color: #ffffff;
+    }
 
-#hero-img {
-    width:100%;
-}
+    header {
+        background-color: #0033FF;
+    }
 
-#hero-msg {
-    text-align: center;
-}
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
 
-.button-box{
-    text-align: center;
-}
+    nav a {
+        text-decoration: none;
+        color: #EAFF00;
+    }
 
-.book{
-    background-color: darkgrey;
-}
+    nav a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
 
-.book:hover{
-    background-color: #EAFF00;
-}
+    #hero {
+        color:#0033FF;
+        text-align: center;
+    }
 
-main section{
-    text-align: center;
-    color:#0033FF
-}
+    #hero-img {
+        width:100%;
+    }
 
-#mountains {
-    width:100%;
-}
+    #hero-msg {
+        text-align: center;
+        font-family: 'Bebas Neue', 'sans-serif';
+    }
 
-#background {
-    height: 725px;
-    background-color: #88e9eb;
-}
+    .button-box{
+        text-align: center;
+    }
 
-.msg{
-    background-color: #0033FF;
-}
+    .book{
+        background-color: darkgrey;
+    }
 
-.join {
-    background-color: #0033FF;
-}
+    .book:hover{
+        background-color: #EAFF00;
+    }
 
-.join:hover{
-    background-color: #EAFF00;
-}
+    main section{
+        text-align: center;
+        color:#0033FF
+    }
 
-footer{
-    background-color: darkgrey;
-    color:blue ;
-    text-decoration: none;
-}
+    #mountains {
+        width:100%;
+    }
 
-footer .site-links a {
-    text-decoration: none;
-    color: #0033FF;
-}
+    #background {
+        height: 725px;
+        background-color: #88e9eb;
+    }
 
-footer .site-links a:hover {
-    text-decoration: underline;
-    color: #EAFF00;
-}
+    .msg{
+        background-color: #0033FF;
+    }
 
-footer p {
-    font-size: 1.2em;
-}    
-                    
+    .join {
+        font-family: 'Lora', 'serif';
+        color:#FF0000;
+        text-decoration: none;
+    }
 
-.icon{
-    width: 80px;
-}
+    .join:hover{
+        color: #EAFF00;
+        text-decoration: underline;
+    }
 
-.site-links a {
-    text-decoration: none;
-    color: #000000;
-}
+    footer{
+        background-color: darkgrey;
+        color:blue ;
+        text-decoration: none;
+    }
 
-.site-links a:hover {
-    text-decoration: underline;
-    color: #EAFF00;
-}
+    footer .site-links a {
+        text-decoration: none;
+        font-family: 'Lora', 'serif';
+        color:#ffffff
+    }
 
-.site-links-hero a {
-    text-decoration: none;
-    color: #FF0000;
-}
+    footer .site-links a:hover {
+        text-decoration: underline;
+        color: #EAFF00;
+    }
 
-.site-links-hero a:hover {
-    text-decoration: underline;
-    color: #EAFF00;
-}
+    footer p {
+        font-size: 1.2em;
+    }    
+                        
 
-.social a {
-    text-decoration:none;
-}
+    .icon{
+        width: 80px;
+    }
+
+    .site-links a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .site-links a:hover {
+        text-decoration: underline;
+        color: #EAFF00;
+    }
+
+    .site-links-hero a {
+        text-decoration: none;
+        color: #FF0000;
+    }
+
+    .site-links-hero a:hover {
+        text-decoration: underline;
+        color: #EAFF00;
+    }
+
+    .social a {
+        text-decoration:none;
+    }
