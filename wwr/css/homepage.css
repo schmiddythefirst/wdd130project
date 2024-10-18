@@ -25,16 +25,20 @@
 
     #logo{
         width: 80px;
+        border-radius: 50%;
     }
 
     .hdr-white {
         font-family: 'Bebas Neue', 'sans-serif';
-        color:#0033FF
+        color:#0033FF;
+        font-size: 2em;
+
     }
 
     .hdr-color {
         font-family: 'Bebas Neue', 'sans-serif';
-        color:#ffffff
+        color:#ffffff;
+        font-size: 2em;
     }
 
     .body-text-white {
@@ -50,10 +54,17 @@
 
     body{
         background-color: #ffffff;
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
     }
 
     header {
         background-color: #0033FF;
+    }
+
+    h2 {
+        margin: 0;
     }
 
     #content {
@@ -64,11 +75,16 @@
     nav a {
         text-decoration: none;
         color: #EAFF00;
+        padding: 35px;  
     }
 
     nav a:hover {
         color: #ffffff;
         text-decoration: underline;
+    }
+
+    #hero-box {
+        border: 5px solid #FF0000;
     }
 
     #hero {
@@ -83,10 +99,11 @@
     #hero-msg {
         text-align: center;
         font-family: 'Bebas Neue', 'sans-serif';
+        font-size: 2em;
     }
 
     .site-links-hero{
-        
+        font-size: 18px;
     }
 
     .button-box{
@@ -95,10 +112,18 @@
 
     .book{
         background-color: darkgrey;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
     }
 
     .book:hover{
         background-color: #EAFF00;
+    }
+
+    .home-grid {
+        padding: 10px;
+    
     }
 
     main section{
@@ -106,23 +131,44 @@
         color:#0033FF
     }
 
+    main section img{
+        box-sizing: border-box;
+    }
+
     #mountains {
         width:100%;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .card-img {
+        border: 10px solid #FF0000;
     }
 
     #background {
         height: 725px;
-        background-color: #88e9eb;
+        background-color: #0033FF;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    Section h2 {
+        padding: 15px 30px;
     }
 
     .msg{
         background-color: #0033FF;
+        line-height: 1.5em;
     }
 
     .join {
         font-family: 'Lora', 'serif';
         color:#FF0000;
         text-decoration: none;
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
     }
 
     .join:hover{
@@ -134,6 +180,12 @@
         background-color: darkgrey;
         color:blue ;
         text-decoration: none;
+        padding: 25px 50px;
+        margin-top: 200px;
+    }
+
+    footer .social img {
+        padding-top: 15px;
     }
 
     footer .site-links a {
@@ -154,6 +206,7 @@
 
     .icon{
         width: 80px;
+        padding-top: 10px;
     }
 
     .site-links a {
