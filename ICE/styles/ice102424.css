@@ -1,0 +1,19 @@
+.grid_container {
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.cherries {
+    max-width: 100px;
+}
+
+#title {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#subtitle {
+    font-size: 36px;
+    color:red;
+    font-weight: bold;
+}
