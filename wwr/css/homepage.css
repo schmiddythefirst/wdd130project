@@ -23,6 +23,7 @@
         --nav-hover-background-color: #ADF1F2;
     }
 
+
     #logo{
         width: 80px;
         border-radius: 50%;
@@ -123,7 +124,8 @@
 
     .home-grid {
         padding: 10px;
-    
+        display:grid;
+        grid-template-columns: repeat(10, 1fr);
     }
 
     main section{
