@@ -291,6 +291,26 @@
         text-decoration:none;
     }
 
+    #aboutus {
+        display:grid;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    #aboutdiv {
+        grid-column: 1/2;
+    }
+
+    #aboutdiv h3{
+        font-family: 'Bebas Neue', 'Helvetica', 'sans-serif';
+        color:#0033FF;
+        font-size: 2em;
+    }
+    
+    #aboutusimg {
+        grid-column: 2/3;
+    }
+
+
 
 
     @media screen and (max-width: 900px) {
